@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<link rel="icon" type="image/x-icon" href="../Pictures/3.jpg">
+<title>Tamos Hotel & Restaurant by Fridah Kimathi ENE221-0290/2017</title>
+</head>
+<body>
+<div class="booking">
+  <div class="column">
+    <form>
+      <button id="list"><i class="fa fa-bars"></i> </button>
+    </form>
+    <br/>
+    <div id= "left-hand">
+      <header>
+        <ul>
+          <li> <a href="../index.html" target="_blank"> <b> HOME </b></a> </li>
+          <li> <a href="about-us.html" target="_blank"> <b> ABOUT US</b> </a> </li>
+          <li> <a href="gallery.html" target="_blank"> <b> GALLERY </b></a> </li>
+          <li> <a href="portfolios.html" target="_blank"> <b> PORTFOLIO </b></a> </li>
+          <li> <a href="contact.html" target="_blank"> <b> CONTACT US </b></a> </li>
+        </ul>
+      </header>
+    </div>
+  </div>
+  <div class="container">
+    <h1>TAMOS HOTEL & RESTAURANT </h1>
+    <pre class="blink">Experience life, live the moment </pre>
+    <form class="landingpages">
+      <div class="reserve">
+        <div id="intro">
+          <div class="form-group">
+            <input type="name"  id="first-name" aria-describedby="nameHelp"  size="50" placeholder="Enter your name*" maxlength="10" required/>
+            <br/>
+            <br/>
+          </div>
+          <div class="form-group">
+            <input type="number"  id="phone-number" placeholder="Enter your phone number* " pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==10) return false;" required>
+          </div>
+          <p id="no-details"> Please <span>ENTER</span> all the required details.</p>
+          <div class="details">
+            <p id="serve"><strong>Select service:</strong></p>
+            <select id="choose" >
+              <option>Reserve a table</option>
+              <option>Book a room</option>
+            </select>
+            <br/>
+            <br/>
+            <label for="date" id="tarehe" > <b> Pick Date: </b> </label>
+            <input id="date" class="form-control" type="date" />
+            <br/>
+            <br/>
+            <button id="submit-btn" class="btn">Submit</button>
+          </div>
+        </div>
+        <div id="form1"> <img src="../Pictures/thankyou.gif" alt="Thank You. We will contant you soon" width="430" height="310"/> </div>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+<script  type="text/javascript" src="reserve.js" > </script>
+<script  type="text/javascript" src="index.js" > </script>
+</html>
