@@ -1,6 +1,6 @@
 # Tamoshotel and restaurant website
 
-<img src="https://fridahkimathi.github.io/Tamos-hotel-and-restaurant/Pictures/3.jpg" alt="Logo" width="650" height="400">
+<img src="https://fridahkimathi.github.io/Tamos-hotel-and-restaurant/Pictures/3.jpg" alt="Logo" width="750" height="400">
 
 ##### **Author**: [Fridah Kimathi](mailto:fridahnkirotekimathi@gmail.com)
 
