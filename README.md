@@ -1,5 +1,11 @@
 # Tamoshotel and restaurant website
 
+<img src="https://fridahkimathi.github.io/Tamos-hotel-and-restaurant/Pictures/3.jpg" alt="Logo" width="650" height="400">
+
+##### **Author**: [Fridah Kimathi](mailto:fridahnkirotekimathi@gmail.com)
+
+## Overview
+***
 This is a dummy website for a hotel and restaurant, built using HTML, CSS, and JavaScript. It is designed to provide users with a modern and user-friendly experience to learn about the hotel and restaurant offerings, make reservations, and explore local attractions.
 
 ## Landing Pages
